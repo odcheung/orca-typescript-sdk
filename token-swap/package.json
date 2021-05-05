@@ -1,0 +1,14 @@
+{
+  "name": "orca-token-swap",
+  "version": "1.0.0",
+  "description": "Typescript SDK to perform token swap on the Orca DEX.",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/spl-token": "^0.1.4",
+    "@solana/spl-token-swap": "^0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
