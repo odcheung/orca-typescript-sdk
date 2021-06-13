@@ -1,6 +1,6 @@
-import { OrcaPoolParams } from './types'
-import { PublicKey } from '@solana/web3.js'
-import { OrcaPoolConfig } from '../public/pools'
+import { OrcaPoolParams } from './types';
+import { PublicKey } from '@solana/web3.js';
+import { OrcaPoolConfig } from '../public/pools';
 
 /**
  * Constants
@@ -20,8 +20,8 @@ export const ethUsdcPool: OrcaPoolParams = Object.freeze({
         'USDC': new PublicKey('2tNEBoEuqJ1pPmA1fpitDnowgUQZXvCT6W3fui67AFfV'),
     },
     curveType: 0,
-})
+});
 
 export const orcaPoolConfigs: Record<OrcaPoolConfig, OrcaPoolParams> = {
     [OrcaPoolConfig.ETH_USDC]: ethUsdcPool
-}
+};

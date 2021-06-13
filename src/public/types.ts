@@ -1,6 +1,5 @@
-import { PublicKey } from '@solana/web3.js'
-import { OrcaPoolConfig } from './pools'
-import Decimal from 'decimal.js'
+import { PublicKey } from '@solana/web3.js';
+import { OrcaPoolConfig } from './pools';
 
 export type Orca = {
 

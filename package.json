@@ -21,6 +21,7 @@
   "scripts": {
     "build": "tsc -p .",
     "watch": "tsc --watch",
-    "lint": "tsc --project ./tsconfig.json --noEmit && eslint --ext=jsx,ts,tsx src"
+    "lint": "tsc --project ./tsconfig.json --noEmit && eslint --ext=jsx,ts,tsx src",
+    "lint-fix": "tsc --project ./tsconfig.json --noEmit && eslint --fix --ext=jsx,ts,tsx src"
   }
 }
